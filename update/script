@@ -1,0 +1,174 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+# Proton Linux app updater
+#
+# Dependencies:
+#   curl
+#   jq
+#   dpkg
+#   dpkg-query
+#   sha512sum
+#   sudo
+
+declare -A APPS=(
+	[Mail]="proton-mail|https://proton.me/download/mail/linux/version.json"
+	[Authenticator]="proton-authenticator|https://proton.me/download/authenticator/linux/version.json"
+	[Pass]="proton-pass|https://proton.me/download/pass/linux/version.json"
+)
+
+TMP_DIR=$(mktemp -d)
+trap 'rm -rf "$TMP_DIR"' EXIT
+
+update_app() {
+	local name="$1"
+	local package="$2"
+	local metadata_url="$3"
+
+	echo "==> $name"
+
+	# Check whether the package is installed.
+	if ! dpkg-query -W -f='${Status}' "$package" 2>/dev/null |
+		grep -q 'install ok installed'; then
+		echo "    Not installed. Skipping."
+		echo
+		return 0
+	fi
+
+	local installed_version
+	installed_version=$(dpkg-query -W -f='${Version}\n' "$package")
+
+	echo "    Installed: $installed_version"
+
+	# Download metadata.
+	local metadata="$TMP_DIR/${package}.json"
+
+	if ! curl -fsSL "$metadata_url" -o "$metadata"; then
+		echo "    Failed to download version information."
+		echo
+		return 1
+	fi
+
+	# Find the newest fully rolled-out Stable release.
+	#
+	# Mail calls this RolloutProportion.
+	# Authenticator and Pass call it RolloutPercentage.
+	local release
+	release=$(jq -e '
+        [
+            .Releases[]
+            | select(.CategoryName == "Stable")
+            | select(
+                (.RolloutProportion // .RolloutPercentage // 0) >= 1
+            )
+        ]
+        | sort_by(.Version | split(".") | map(tonumber))
+        | last
+    ' "$metadata") || {
+		echo "    Failed to find a fully rolled-out Stable release."
+		echo
+		return 1
+	}
+
+	local remote_version
+	remote_version=$(jq -r '.Version' <<<"$release")
+
+	echo "    Latest:    $remote_version"
+
+	# Compare versions using Debian's version comparison.
+	if dpkg --compare-versions "$remote_version" le "$installed_version"; then
+		echo "    Up to date."
+		echo
+		return 0
+	fi
+
+	echo "    Update available."
+
+	# Get the Debian package information.
+	local deb_url
+	local checksum
+
+	deb_url=$(jq -r '
+        .File[]
+        | select(.Identifier == ".deb (Ubuntu/Debian)")
+        | .Url
+    ' <<<"$release")
+
+	checksum=$(jq -r '
+        .File[]
+        | select(.Identifier == ".deb (Ubuntu/Debian)")
+        | .Sha512CheckSum
+    ' <<<"$release")
+
+	if [[ -z "$deb_url" || "$deb_url" == "null" ]]; then
+		echo "    Failed to find DEB download URL."
+		echo
+		return 1
+	fi
+
+	if [[ -z "$checksum" || "$checksum" == "null" ]]; then
+		echo "    Failed to find SHA-512 checksum."
+		echo
+		return 1
+	fi
+
+	local deb="$TMP_DIR/${package}.deb"
+
+	echo "    Downloading..."
+
+	if ! curl -fL --progress-bar "$deb_url" -o "$deb"; then
+		echo "    Download failed."
+		echo
+		return 1
+	fi
+
+	echo "    Verifying checksum..."
+
+	if ! echo "$checksum  $deb" | sha512sum --check --status -; then
+		echo "    Checksum verification FAILED."
+		echo
+		return 1
+	fi
+
+	echo "    Checksum OK."
+	echo "    Installing..."
+
+	if ! sudo apt install -y "$deb"; then
+		echo "    Installation FAILED."
+		echo
+		return 1
+	fi
+
+	# Verify that the expected version is now installed.
+	local new_version
+	new_version=$(dpkg-query -W -f='${Version}\n' "$package")
+
+	if dpkg --compare-versions "$new_version" ge "$remote_version"; then
+		echo "    Successfully updated to $new_version."
+		echo
+		return 0
+	fi
+
+	echo "    Installation completed, but version verification FAILED."
+	echo
+	return 1
+}
+
+# Main
+failed=0
+
+for name in "${!APPS[@]}"; do
+	IFS='|' read -r package metadata_url <<<"${APPS[$name]}"
+
+	if ! update_app "$name" "$package" "$metadata_url"; then
+		failed=1
+	fi
+done
+
+if ((failed)); then
+	echo "One or more Proton apps failed to update."
+	exit 1
+fi
+
+echo "All Proton apps are up to date."

@@ -1,0 +1,768 @@
+{
+	"Releases": [
+		{
+			"CategoryName": "Stable",
+			"Version": "1.14.0",
+			"ReleaseDate": "2026-08-26",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.14.0/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "5908632fe34e3d40b698c9459bb774428a5b6aedd7c89ed9ff68394b90227c689a5a03ee719f9b3a4e20c7c4a69ce67fe40ab12e0f344359e9005c7be839d818"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.14.0/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "0b4ba742b86754bf2a85672096eeca0baa14799044ba4129c2d96668db8a111bd8ad3bc0769ace711e505bde3712251a4933fb0c5702dffe9a32193918f476be"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"],
+			"MinimumAppVersion": "1.12.0"
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.13.4",
+			"ReleaseDate": "2026-07-29",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.13.4/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "3497f9efdaa76ea3bcbde7e30a997a272b3dbd20145131be6113195ececfab0bc9c1466dd09e42d4cff7e1b0b9dddc1d91bed03c90ce6e33f37d6eccc88f4f40"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.13.4/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "2db3d08fc0d1a0d1111c156900534150e414d4fb273d8dd82aa580b64d6f5ff97c620e53b94c70e270a230020132f40fc2d5f2b01786274c37c0a123f3b2f169"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"],
+			"MinimumAppVersion": "1.12.0"
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.13.3",
+			"ReleaseDate": "2026-06-12",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.13.3/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "8700c4f3f765cc6e473fc2e25d65f36248ecc19510c6443fc9184372f6ca1a32d7d5764f3cddd6cd97a4355b22909ece084e568d67739273d181671250c46ce3"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.13.3/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "15166c4f92d97658e3037463bcc5473249fbd8fa83a0516dc049db6a40281d8e4cf0196b826ddbe4afa72e1254eae639eed331eb749be5b121c655b860d184d9"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"],
+			"MinimumAppVersion": "1.12.0"
+		},
+		{
+			"CategoryName": "EarlyAccess",
+			"Version": "1.13.2",
+			"ReleaseDate": "2026-06-04",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.13.2/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "bf3418af6d2c62315ced24948007f6b5a36d900a761f55bb82b84f02559f9a17734c18185291089a3e5721310df9faec92b7e2807eb459de02de0e4e7e1d011d"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.13.2/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "677b5ec4019b17dbdfe9739dee685b7ae05a1a9356d1cd9b03ca5b83ff86aae664e9a655aee01f5791a8f574aec5bffa6c1b9847923b5405339728068ffe64bf"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 0.1,
+			"ManualUpdate": ["0.9.0"],
+			"MinimumAppVersion": "1.12.0"
+		},
+		{
+			"CategoryName": "EarlyAccess",
+			"Version": "1.13.1",
+			"ReleaseDate": "2026-05-18",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.13.1/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "1174665e1cdbaf13df4892f64830ed165b520d2ffec50d1b4f7f8c05bdbb4520ab8563c8b039548b6ee8d3b2ff3bdb5a3cf941339c0f7962da7e892d4c0cc2f5"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.13.1/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "482b2cf55c77150012ca26926f95df374b3ddc1543e5e484878ce2ea1af25e99311850c9fd0ffb998773893d8755cd602ba99270edc2311a28fe23411d819dc4"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"],
+			"MinimumAppVersion": "1.12.0"
+		},
+		{
+			"CategoryName": "EarlyAccess",
+			"Version": "1.13.0",
+			"ReleaseDate": "2026-04-14",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.13.0/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "7977d645bd66a1724b904e675670c2da3b8cdfa1fdb606013898d7edde10a92bba53b998e82ab4418907bd34717b898e7ca22570d47ceaa75716fcd3fe60e575"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.13.0/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "f131d2512ada197ce15bd592f20be88fe0268544c02b834f8dfbd631da1e0e9d31c137377eca322e2a7425096e40fe7eb49939f9e6c6c83769a73702744bd0ca"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"],
+			"MinimumAppVersion": "1.12.0"
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.12.1",
+			"ReleaseDate": "2026-01-29",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.12.1/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "e5d69709dbd9ce70eab63a8fe30698fcebe32d08db18dfccc4eb9443d4cc8067a422f4b680d9f74d5408c5f3fce95bf0ede2d4064f609415bf0b5479b55601b9"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.12.1/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "1e7d572859e3452e208f6ae3f6e5eac7d6bbb4cb014b36f6c7a7b0b0a7bd916d7c8562775d806536729f18762bf16600a3dc050b46ca1c0733addf6ac55a311c"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"],
+			"MinimumAppVersion": "1.0.0"
+		},
+		{
+			"CategoryName": "EarlyAccess",
+			"Version": "1.12.0",
+			"ReleaseDate": "2026-01-12",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.12.0/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "eb24eeee66adc282ad7127a3e90cfd075353188f1a259c54d63ceb1883a6bfd4c5de4931a614836c20fedb18f3be1d972cf69486965e973f7f66d87e0120e28e"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.12.0/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "4751dac14c5565501788d4b5a27cc082c24d1de5f15e7d8b26c74ec2c3cba98443448504add3287b3aec15c6178ccd6eb86d9f155b6b9a35677430bb0c014652"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"],
+			"MinimumAppVersion": "1.0.0"
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.11.0",
+			"ReleaseDate": "2025-11-28",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.11.0/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "0f9a8996d1b58ed3e9b2236d610a4a4aae912cec10a39c7e9cd59ee2d0addbba7da931b2691c764f23a44566204c86651e07e3cc1b1730e78dd788dc0cf2c306"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.11.0/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "8e02ad7e2a02d0bd49a112e93b404154ff16bddcfbac27979d9dfbcf0660a28481f2656ff93d031215dc2a5cdd6fb060abfad8f13cc00a41bb3db4d22ccf7fc8"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"],
+			"MinimumAppVersion": "1.0.0"
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.10.1",
+			"ReleaseDate": "2025-11-07",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.10.1/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "405ad9659153fdd5c426b4601a1f20138e5f4eacdf58524a2cefc0612d89fefd37265457bdef6b7da7bb223d7c17124e100703857c985b792d2528a7916f18a1"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.10.1/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "863ea787f9e2a1acf50a7264d550c404fe86395f23323e50461f9db4e92103dce234a6902441b587ef1c59071387920afa1a1063fc691e7468420d3360856c52"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Alpha",
+			"Version": "1.10.0",
+			"ReleaseDate": "2025-10-31",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.10.0/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "c362085cea435b43024fcd787c3a621d247f6d95f695cb791555949a942545d664ca19d07ae9939a2327d01b04142e0d0e2fe2c0ce989138eef4d3da0e57a10b"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.10.0/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "f97a966ad64a1dce4d6eac201852ab3f224cc3e890afb79f8bcaa1a6d601574d17a192b966418142d3a5df8cc43527db37c5505282c9d5d1d00fe8a6f265a53a"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.9.1",
+			"ReleaseDate": "2025-09-24",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.9.1/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "8f78db0707e3f1f0cd8ad259891840f88027c56b347c7526e8283576a997cef543c8014569aaf774f444e0d714bcd6e54a5c48171553384368c38cec4cf94e5b"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.9.1/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "3733868fe4d9b704bfe232589c0e7959cf1d9b2ed2a715785a3f858201bb896aa7d20ac2823f1060b85f2eaed833778b3b1458f872bebd48e85f8b2375a90af4"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.9.0",
+			"ReleaseDate": "2025-08-05",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.9.0/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "b43abcf864e6296d112231cf262c8c4cac82f4b1c54cb5ba06ebb63bf032a150fd5d97d4343b9037a9694e86cb2d26d8ed1d7741668a0a3e7e123fa9cc847c75"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.9.0/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "760d3b6aafbd314d1256e8bed9da345fe4aab89ba6cf996b9fa547d607031d26dd7d389ed30af922ce9a3951236f19ec35a837df25ee43bd54f6e1670010b5c3"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 0.1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.8.1",
+			"ReleaseDate": "2025-07-17",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.8.1/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "31635456313c2fb4d41172eeaffe779484cb690fcd70cab56ded52064017bef227ea25ed98d9fc7f602200b97b04532b344c35081dfb3a847720f510101b8939"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.8.1/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "674f79bf272debd27e8aa7d6c7dcc4891d8bbdeb911462b9f63939e0571e681341d017561ed4f22b02d1c73c29bcda5c9c59293802e858cbea7423f2038f580a"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.8.0",
+			"ReleaseDate": "2025-03-06",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.8.0/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "3267112cc06dc001ac59531abd84bd89a0c44ff0314ad53db2f5eb32de8f2f482ab02241a20682c08ace6cb65c13a74bb12cb77777889e240c3ed6bc64055112"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.8.0/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "dc869195ccdc23aec3420e042a926151da3dd3c57e3b357665335d3c8c30f14617b69c0020ea040111d04c77e59b2cd4961256882955de44403c4e06a2b0b894"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.7.1",
+			"ReleaseDate": "2025-02-27",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.7.1/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "42051de5e8045c190752f248fa84263f594b0e9a4e553f8c1ac989a513d2ad521c46632de424f0bbebce1ecd9bbb7c136c3da40bd8feae1819957e5c463616fb"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.7.1/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "49f26a2964af98287e38c69ae43ebd5e832b34098d853cc13f8f68c372f755a3210141d3230a8b4a6406447898a5a17f3c832f37bdd9ad3f9ef4171862b08bfe"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Alpha",
+			"Version": "1.7.0",
+			"ReleaseDate": "2025-02-20",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.7.0/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "91eed1e913cdb5398b89743f11c29349e128d38b2a999291da4909e224c11320b14c5da981e4ec8b39cdc15d0aa2c12a363fde707fbff20f7219c636e3dad9ef"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.7.0/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "8e7a318ae83242ce3f7522e243490b50463b3d4546d0230f7c7c08870c20b0298fb69ccc3f6e1a175b16a89f9f8ef445070cb7bf1a8cd6565eff4295a6b1eea5"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.6.1",
+			"ReleaseDate": "2024-12-12",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.6.1/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "fde65a33be182907cc104a5875f2ed2a2fee9621f35d36208ff8e13f7a0118d4a3cdf430308880613096e4e21461a559cd9433f566360eb0f565e14cacf18bc5"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.6.1/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "8ed5b419dd4f6c3a3a275bffb77a8847cd3c049bdcfc18878b982223fd484ddfa242972cc6a73fb72bbddb08874d8a15d0c16bd63a9e121c724eedf052288fbb"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.6.0",
+			"ReleaseDate": "2024-12-06",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.6.0/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "7a7b2e93b29c1c9f3ddc44bf7b078b6260c79d981a557581f11bb2677a8317264dcb2e664cb7e4a4d9259872cf6bae5d60b94f9ae6ce3655b9be40b03f78155e"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.6.0/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "16a37459e008c5cdb8a325fd76b353fc85123a4880ab06e4f44982b48dbdf753e392e06b282cf114f24a840ec3d54e4b86290a27600b311f8e12c92c7bd1226e"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.5.1",
+			"ReleaseDate": "2024-11-27",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.5.1/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "c0d60eb309170aedcc772e10ca4de73cc6fb057eaf510cc5cba996260bcdd57fd7db8f503fc2b77b40c93a411cc19848727554381a9520470a0d5119c267d6da"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.5.1/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "546d64484e5b06a551da88540c4ddf73a9b19f8fe88dc72ddc779e23b6094ca571593d81ebcdfc5228e3f426832f870301f48af2db6ee774bc681441a27ea651"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Alpha",
+			"Version": "1.5.0",
+			"ReleaseDate": "2024-11-26",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.5.0/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "16e2909d38d47af7265fa1d7b7998046b76b9e789527cee3e1dcc397a7d2271c0a302adc56cc6b362fed88cb344406bfd0095bf6a37c85fb0cee6fdf01702057"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.5.0/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "d83edeec9b848e29a1b9b88e587bf87dd436c4d7a1e43ebeaf2f53ce563104f235196f214c4160fd2406339392e0ade1b8a059592619ef6545005fbbd9971983"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.4.0",
+			"ReleaseDate": "2024-11-20",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.4.0/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "4e1777fd84c70e63bfb5330bc5d13bfe56d07d0544ec426d8a6d037b80568b41ec7c7055f43634e09d3bf9c3212fc7ccd730703e51c065643c2c4ceb1ad6b582"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.4.0/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "847f564a1c292957175b4b9f114438e2f9edf2ee9f9c7a22121375797926c9372f5b1e4e13ff01b202fd4d09f1f7c25512da2b5c2f6a4a6ac3a8777ac83f78a8"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.3.2",
+			"ReleaseDate": "2024-11-12",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.3.2/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "d978d748f4b3b3e08fb6e962c110dd66868fddfc657c96018c1c808b7d00c4aa01430d7266ee7a966b8fe71322f2914bff179e9258b477a5d56cc5be01d738ad"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.3.2/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "10cf5ea806b8398312dc2a0a6eb218c5262d4c2c5555503feb094ff2d838270e01eb5862729a709fb86cfcc33bff17447119dd0c534cf697aa179fb8e4d05ac1"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Alpha",
+			"Version": "1.3.1",
+			"ReleaseDate": "2024-11-12",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.3.1/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "8eec9aad22928f012960f451fa627d69e38cc3e2dc9b1cc01842f6aa18efcbd38c55e5456085294cf05db4518029883f3520030c8a3a51ed9d4e79204c7dee88"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.3.1/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "fc8778d668e355350e506213d408aa2a54bf512d222623a93c919ae7675e0b5e8e5ab0641eaf2d449eda30c36978a7fa42381917c39dfd7278748bcfa12ee7c2"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Alpha",
+			"Version": "1.3.0",
+			"ReleaseDate": "2024-11-11",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.3.0/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "f9b45ef6f7a1d7795e2714e9b7635ea2a0fd1024e59aad9b7ca0c5cc6fa6ed04c810939c5a5a8e75cd02183983777b9c89dff68b94e3db53bea0bf9f7105ae40"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.3.0/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "0db960ff801e8cd8043eed311d15ab508278cd7eeea9f28481072166c00c9ae45139a7161a315bd0bb8ae47a315301714fbd743ca64806a081bfc56d77e966cd"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 0,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.2.4",
+			"ReleaseDate": "2024-10-02",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.2.4/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "a439906d06d6b46505bae017d3152ae2341e3c0ef3588037323484b29238f6be282af4c0da1779142c10b1a210bbd0480e35e15b0b754e9b7868bba6d00e6d0a"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.2.4/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "1e63ea89ecb3ddcf535eb0f25c0e53bb5d9aaf5d38535785a97143091544f3aac2a42d4f7556516d7c03457edcfe26556b4f65a98355032799d43a314bc80628"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Alpha",
+			"Version": "1.2.1",
+			"ReleaseDate": "2024-09-18",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.2.1/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "f8511efa66bf776d24b00370427b8d0fb63839bd53843346531be85957d01bbfef016a202b1c25620bc39646d0e9523f0b31c7a05c475c7c01b028354fec724b"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.2.1/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "0102fb174ad62892721711a563b31d13a4215f6eb0cd24db3618e1776a27b7b5391bdf19c4edc2dbff6288fe0bdb1d2447e14addfe3f54c5e2acabce565bbc64"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 0.5,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.1.2",
+			"ReleaseDate": "2024-09-17",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.1.2/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "ce5568970c64da64a4bfe8cd88c2c42dc2edf7d1d502e0c0150eb9cd64ebad6faf3b5269ed942a7a64c398006fda738b55656e9a69aa7a6b15233d9b497a11d2"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.1.2/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "36e0484ecf6f10a33f21d4333c6472d18ede15f3d5d5fab8afc4ce9d84d48226a930056c1fee1ce069523c4a6b1c9f2496bc1fa1d2538e05a8577a098e6185e6"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Alpha",
+			"Version": "1.2.0",
+			"ReleaseDate": "2024-09-13",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.2.0/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "ccffba14ac113de5fe0b0ba006f7cab838d18aca8cec99d4e14ebbd7ec7c4d1d052faacf637d74fb601a9c6f75fcacf3cab8c76875d743337be2ae3c5bebdbc7"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.2.0/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "fdd99565db285cc542367b7dececdc55d062712f78efd6ac6750b7ce5fd07dd8ca1ac69bc2014942804ed2c147af386c28617adbd771efebaf831519700ccc07"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "EarlyAccess",
+			"Version": "1.1.1",
+			"ReleaseDate": "2024-09-05",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.1.1/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "1a98968a675ddebdf54e19680108f36920dfbbe291a1f6cd2182fd30064b2a741022884143a36f99c8a5c1f0643faaf0cfc412b1f26f6ef51f15bec5267366ef"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.1.1/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "3696a9eee14f4665e37ade0318e3ee97993a6bd838c985398ba060bafe5cd8a4a22ab1f40e5b76d56868de9b6509662008737a9bbc84add5876fce0e7d058a13"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.1.0",
+			"ReleaseDate": "2024-09-03",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/1.1.0/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "efa5fca38fc76cbd13ae2b153c1eff9d233b62be5b4ccec5647cff57c055a1975176219255eebe3f0e8cc1df3933cbd807aa41c99e3ba24e35ce24d6145d2953"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/1.1.0/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "c7871b1a1421ccb2a5ce808196f9ed996af9a408066b8d8d79f3852f29e4c0a0063ce89a86d5b9683fea38392bb94eed1ddac73ce4b2bbd6d7f799b1894e82b4"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.0.6",
+			"ReleaseDate": "2024-08-01",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "fb51c0cd2124188ec40ba38c863933905a26a7457e8738048865ed4a43feb6afb30df8f20924eccfaca9e69e17f0b63960fc2e986edaaf714906d56534b8b462"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "ac294dabfd3150c26acf46d9988942778076191d4b1b100798de06d6fbaececa87083d72c6e717259969250a711ef7559e20cb6d862b890244cc34d917b86e6e"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.0.5",
+			"ReleaseDate": "2024-07-09",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "108e434004b323d63f3240f86f8c6e13d0e42d09a59846a8d04b44914927985e93e68ca11ca110581186fc663b28e5eec6d3b49751c0eca9e04f0dea3cf753b3"
+				},
+				{
+					"Identifier": ".rpm (Fedore/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "00a2742aa487b3b08ab15502895b967272d6096ccc442087cb8d4be11b6842fac5856746ad2dfe45f99f229fbfa3d59b2b8c105e61ed86f8d75e80d160527212"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1,
+			"ManualUpdate": ["0.9.0"]
+		},
+		{
+			"CategoryName": "EarlyAccess",
+			"Version": "1.0.4",
+			"ReleaseDate": "2024-06-25",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "abe0e2248dc9d79af17feb1daa9c7ce5d2c772f7a93673ec2b8f38bbc73bca0c4362378eeec2b161b37c6381c13395845634d50870b1e8165a4cb9770d7859c4"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "99414228dfd6a7c225bc8fa94cd7ae9cd6350d47da82bc2c375a25bf7d2b3a87cdf47c7345b14c25b91b56f0234b0ad98d784dd5a3f967ff9d358c7435fa93bd"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1
+		},
+		{
+			"CategoryName": "EarlyAccess",
+			"Version": "1.0.3",
+			"ReleaseDate": "2024-05-28",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "8d23105dc8aa0d3320b113937ad94f057b040a603cc6353a266b3e563a6cefa1a9368e8dec53c377417d6f79fd325375d338dd8dd8506a2b0526658f6981668b"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "c6b8a68545d8a7814953f6e343b362512faaa789cd46b95c4ffecf0f83444ba5b79104e33242a10d3836f6c6fe7d338e9e8e8f6113c0bcbe2a6027da58ea857c"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1
+		},
+		{
+			"CategoryName": "EarlyAccess",
+			"Version": "1.0.2",
+			"ReleaseDate": "2024-05-10",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "eaf1fcd37619da321d1aeab509df3ffa238ca9a22bddfb540358315e3c1f01a45d7a9f03194e732b25b9aabbdfb95f342142d440612157c00f285c8cd5db46e9"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "5fcd824913ead17e9040a9212c84df5badca1600ae38d8e3245ccdafe062bc68d7be703b2339a0ff5eda33f355b578808ac2e881918433bfa9323556ab00d558"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1
+		},
+		{
+			"CategoryName": "EarlyAccess",
+			"Version": "1.0.1",
+			"ReleaseDate": "2024-03-21",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "cc772a801ba6086ace8b313215c46352a88aea6627287b5219ae2963fde1d5d434f8d6ac9fd469a971693ec0d0813b387de8c94af021f41bad993d145937f293"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "de38e6f11b91ab3ff5e987fe6b14d430a8911ec45b94ed7f95b758cb3d542b73cc0551142e4f94950209fa445bc8fdfd9ac3d13d50aafc183be829a0c01298e2"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1
+		},
+		{
+			"CategoryName": "EarlyAccess",
+			"Version": "1.0.0",
+			"ReleaseDate": "2024-03-14",
+			"File": [
+				{
+					"Identifier": ".deb (Ubuntu/Debian)",
+					"Url": "https://proton.me/download/mail/linux/ProtonMail-desktop-beta.deb",
+					"Sha512CheckSum": "09e42e7980eb4a2ed335ffefd3812f4016c3edb5693dff263413cf406c465f4e1a1b313b5516e08142fcf06294f14aaba1764691ccb54615f36cf683a228f826"
+				},
+				{
+					"Identifier": ".rpm (Fedora/RHEL)",
+					"Url": "https://proton.me/download/mail/linux/ProtonMail-desktop-beta.rpm",
+					"Sha512CheckSum": "6a0316239f8680200cde7d0ed40110330a2280ba07587424ef0de339b346b3d5460af8800cb6b36117d71d6f0b08f352c6295405090a31b25a5d5452c70d7d6e"
+				}
+			],
+			"ReleaseNotes": [],
+			"RolloutProportion": 1
+		}
+	]
+}

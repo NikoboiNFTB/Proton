@@ -1,0 +1,1260 @@
+{
+	"Releases": [
+		{
+			"CategoryName": "Stable",
+			"Version": "1.40.2",
+			"ReleaseDate": "2026-09-10T10:57:24Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.40.2_amd64.deb",
+					"Sha512CheckSum": "c9bd58a7266dc78fd33da6b7c127930424e47277c9db8a521b079c68557e33e510f02fb8c3db26190f31ae3a14bb3951bf498a41b73a3fdd021376e24653a78a",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.40.2-1.x86_64.rpm",
+					"Sha512CheckSum": "39b2ff0d2a7a2d394a70f1173480fa4cf2d45f431cd3ff389e0f02bc93cf735b8e74567ed81b6273cbc4b7c4b48f526a3aa811804de198c9fdc43765d639e2a0",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.40.0",
+			"ReleaseDate": "2026-09-02T12:49:32Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.40.0_amd64.deb",
+					"Sha512CheckSum": "4f1be04f38cee1f858b4901269d697a4ad78d967425596b743f2fded8f095f5951b4a0d2620324175705dca07b77cca63e78837f53e846fae3c98a426a1c78b5",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.40.0-1.x86_64.rpm",
+					"Sha512CheckSum": "7b7ffdef5803c0ab4bfe064cae2a714888f650c915e96e980aa548de664e77b0195d4644651691a46317e5ac59ad7aa356386a417e79e3bdf897a326afa3f3d6",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.39.1",
+			"ReleaseDate": "2026-08-10T15:56:19Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.39.1_amd64.deb",
+					"Sha512CheckSum": "2212b0607aed6fa92d4502764d55e67fe381ccbe9c44db431050f5561a82796f25ca0c712016997779e66d815c4d420bebcdb7a07facafa77c2f84e90a1772f8",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.39.1-1.x86_64.rpm",
+					"Sha512CheckSum": "3564444f06088afb0992f0b7488e70249ab47799d276c2c5be1db6ba2545b0ace320b3fb65272e415ef8667d4a5207527d8f61ec59a80fe4ad3e81905df9da99",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Beta",
+			"Version": "1.39.0",
+			"ReleaseDate": "2026-08-10T09:14:36Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.39.0_amd64.deb",
+					"Sha512CheckSum": "730caa513973aab8da0f46b3de79237a905184cb38cf631b67860e4fe15bc53d3a7a018c08d104976befa3e85ffeb0a1b046247f40e24861798b4dca70e30a7d",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.39.0-1.x86_64.rpm",
+					"Sha512CheckSum": "280ab0b24a5e2e9e84a6fd7e970b70c68608b91f40f9b20391c08fc2fb98fd4e9a8905eeb0350eaf2f343b905ef918f569e8b279ddb643f04db4cd4cd6c1a5d8",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.38.1",
+			"ReleaseDate": "2026-07-08T17:25:09Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.38.1_amd64.deb",
+					"Sha512CheckSum": "e23b635b4095a5934e1f84b5346fa07b05c31248c84b31e779375c3ce4887873904c76e3b4c52b8824d9a6c1b57c19517ed889787b2f17568c3b7f1500216c62",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.38.1-1.x86_64.rpm",
+					"Sha512CheckSum": "352c4c13ac41e19133210bc898f03f6eb9e887c5d7d38e20ad17f5dc049ca6413e3e2821d2371e012ba1b0c4359492f0c657c22bb6ca9fe3a38711bd01166f75",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Beta",
+			"Version": "1.38.0",
+			"ReleaseDate": "2026-07-06T14:53:50Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.38.0_amd64.deb",
+					"Sha512CheckSum": "14f782b1585728b4024aa2fa43a10e0f7c0afb45448bdbc0e823a58cb47fc44956bbac0286773e056fc5102bfc8b35d541839da3333e4e3f292ee98e4e815d5f",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.38.0-1.x86_64.rpm",
+					"Sha512CheckSum": "46b40d3cb401c82f23df4a69983f3a85624c5de381cfe19c8e840cd5ce3d1163a356d0a8108fc4f6ce95c727a239fd3318f5dee3cd715d1bfceac36457d59f59",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.37.0",
+			"ReleaseDate": "2026-05-21T08:43:04Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.37.0_amd64.deb",
+					"Sha512CheckSum": "e91cc536615fb879abe7b3d47fb8479312b07abf6595997e5bf59144f8a29d4209309582f09c30037baf4ea9f995e5694cf79e6d073172de02a517446b4cf322",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.37.0-1.x86_64.rpm",
+					"Sha512CheckSum": "c96e07ee84d93b60437a7474880e6e9e493a0eafe75cf120c3f9633ccdcdf43dc31c03ae21fbfd44e0f2419bae341fe57e050dcf80656c1f8a3617aabef47811",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.36.1",
+			"ReleaseDate": "2026-04-16T12:07:25Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.36.1_amd64.deb",
+					"Sha512CheckSum": "42b4e6852e92c4f2519aa2b0dc30c44f56dba1f21f27c2855ecc18f83e0295f44dfb13a5ebbf2c1eb53c11fddfb32435d28b96e8a9ada02c96389671ea37148b",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.36.1-1.x86_64.rpm",
+					"Sha512CheckSum": "0c9c53c6e6f2a80007b390ae842f4f113ea2b376601a09894104b75c03d98afc29850958adf3f317441729ca9583d25831a121fac200d7aa3ee52b8cbedd98e2",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.36.0",
+			"ReleaseDate": "2026-04-03T09:02:08Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.36.0_amd64.deb",
+					"Sha512CheckSum": "56d28356577a33bc57b5ef67261ee192d9ba986f1ed3aaf8150b2a4f52688910bbe824192bb3b3e1f7518a62949f2becca4df1d8e87ee6d00241341b7dc0125a",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.36.0-1.x86_64.rpm",
+					"Sha512CheckSum": "d8b77e87d85444122c2aba47c3cbc840b7b236e9bd99c213a1c4172432927cc1252f6c6506194de8894185570eca73cfbf3d64632543636bf8abbb897ac92152",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Beta",
+			"Version": "1.35.1",
+			"ReleaseDate": "2026-03-30T08:48:14Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.35.1_amd64.deb",
+					"Sha512CheckSum": "2f3055b355be8135007ed7e075a934bd2d479046e7eb3099e94768d0715c62726abe7051a34340a022d6fac2928d633b57bf1dd2d48ac1fbf331dd1ae5dd9e6f",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.35.1-1.x86_64.rpm",
+					"Sha512CheckSum": "eb00417104747975ac0eb64c7f50c67ef46299ac0644d99d2adf251164c3d6b7cb4a8103a03f43019c0b89ccc0c5353be220d215569632b94476dffdf98c401c",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.35.0",
+			"ReleaseDate": "2026-03-09T10:47:04Z",
+			"RolloutPercentage": 0.2,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.35.0_amd64.deb",
+					"Sha512CheckSum": "8b9bde6a978eb99f12eeea4de31d33af3317e2854d979efb736f50b5db6b5785b9a07010bd39a57154ad9436b840a3676098e7a53678911a1609801c65975a9b",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.35.0-1.x86_64.rpm",
+					"Sha512CheckSum": "f11405e7545df0015cf04e2bc304b0f8fc69001e8782b8c365226f7a6b0d78c572931bc0d683eb756639bca75fcc064cb1d76c32a88049f222a68be902428fbc",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.34.2",
+			"ReleaseDate": "2026-02-06T10:23:23Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.34.2_amd64.deb",
+					"Sha512CheckSum": "b77fb18519428c33f886b5f634792226fc43967ee666fc988c3d767c8e1db16163fb2da41785dd34fa367f8ff729d459dc93f8615526b71f1db64877ad1812a1",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.34.2-1.x86_64.rpm",
+					"Sha512CheckSum": "ae2bbd4d277951a9a9e36f182a80270cf6f8648e4d7cdef057265d8e64e67bc123ae621b8fd0f2e81044d9a2f52f9d2444f05b523a0f29c4f45af4181410f29d",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.34.1",
+			"ReleaseDate": "2026-02-02T17:00:01Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.34.1_amd64.deb",
+					"Sha512CheckSum": "c11879feb7fd7e6f03688516a661c81d765fc7dbb96329b38a1ac06287689b58ab3e834d038298fb2352ee0012e9a4716e37ed29bae155dabd7f8f2a905e3871",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.34.1-1.x86_64.rpm",
+					"Sha512CheckSum": "aeed0445d8fe9deb95824102b80df94f552b0c694caf0c8639fcc70250a9f830e7f0d6990d13ab745c81926c278ec46e5d9cd98345e7a1d57a83a8ce960ac52f",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Beta",
+			"Version": "1.34.2",
+			"ReleaseDate": "2026-01-30T15:17:14Z",
+			"RolloutPercentage": 0.05,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.34.2_amd64.deb",
+					"Sha512CheckSum": "cdfa7d2e5ed6433d6e4dc26730eeddaa79cb5e82603f05435e9c7274b4f14cfd8b58788256d64d15f4eba1ca4b606d162af8670ece72586114d43735e49c91c3",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.34.2-1.x86_64.rpm",
+					"Sha512CheckSum": "50813310ccc82feef68f01a7f8e9e7cb42c1ff85865cb97cab0b2700ad38344dccc66d81c978cbef8aa0025d04bc4fbc2cd2346a39feb8de0e76e14c28c815b9",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.33.5",
+			"ReleaseDate": "2026-01-14T12:29:39Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.33.5_amd64.deb",
+					"Sha512CheckSum": "c742f302f73d59484a11055d58229240c7a0f648b2b9778968b6aac9e814e33c316f2a658cac58b55c518d228b59d92e1215e3eda07a5957fd5c4dddc086c8d0",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.33.5-1.x86_64.rpm",
+					"Sha512CheckSum": "52b3421f5f20a0a98877ba47852ae1692413ce47d2e3b13080fdf926a52f59256fca7c5fbca6b09a84e56f4b46dc0953b3e0b6cc64c75edf316a4489c059ce07",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.33.4",
+			"ReleaseDate": "2026-01-07T16:37:34Z",
+			"RolloutPercentage": 0.3,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.33.4_amd64.deb",
+					"Sha512CheckSum": "763bfd20fe07c6aecf295167e80d72e424644b1a5c33d2236e1611131b529bce7ebb13ca79a014d1c6fb8ceed3e970713ffbc96cf8af83a310227e6a4d51d02a",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.33.4-1.x86_64.rpm",
+					"Sha512CheckSum": "cc7891d26243b7e47d99e7148881e44a40d77883416c456da975d55b316c3771f74740e93f2d413503661c5d314640b4b710227eb0a9cbc157b6fa854505d990",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.33.3",
+			"ReleaseDate": "2025-12-18T16:16:45Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.33.3_amd64.deb",
+					"Sha512CheckSum": "7d8c78cc02728c938b8e312faea39fa2b7ea61fe6613f00ffd47885144833c0dff51d80e0955680c6f4081cc6c2a90e6e3052ad3ea9610e9270d78c4e62ebc04",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.33.3-1.x86_64.rpm",
+					"Sha512CheckSum": "67ba327d4a5e1c3c6a533cab24e9fa8a2a42cac728220c93dcff0a54ff92158a364e5745fdcc4b336f79b15a441635755ceea7b5aa29eda2171191434a712043",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.33.2",
+			"ReleaseDate": "2025-12-17T10:13:16Z",
+			"RolloutPercentage": 0.05,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.33.2_amd64.deb",
+					"Sha512CheckSum": "35f9a2db1bc419ebfc310fa0b97c06eef4a42f8aeec433e58ccfc4e57e64075ddbdc6edee668366294b713b61483d3e7b67dfb0b2b675652ca50138c8ff44258",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.33.2-1.x86_64.rpm",
+					"Sha512CheckSum": "a8c9a5b0706430e4f7617ef26b7c6657e4340981da709df03727a835fdfa98c7de155b66134547ba2bfa09e5f070bd349c7b38cf61d7d8415eaae09822675e41",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.33.0",
+			"ReleaseDate": "2025-11-21T10:21:54Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.33.0_amd64.deb",
+					"Sha512CheckSum": "8ebc0f570cec04b1b4b95f98043c71e58a9d9619afebeaecfc95918779cc96e951bf56e4393946c654acdc5cb927c1d3780c5cb50307bf3985133b20ca57c408",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.33.0-1.x86_64.rpm",
+					"Sha512CheckSum": "542ec4b09ad57ee05d946d219d8f61b779b81be7e04adee86dbf09422a550ab1d322b70094cffb3cf35fbbaeed91e460a78b91c807b24bb3aceae4c8745ad627",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.32.11",
+			"ReleaseDate": "2025-10-27T09:21:06Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.32.11_amd64.deb",
+					"Sha512CheckSum": "d6910cacbcd47a5510a67876b63934b7b74819d4659e36cc698edcd3042358f079351a667458c3ca3ada16ac31649063e50f7d37f00c69e51770fafb6ae50d4b",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.32.11-1.x86_64.rpm",
+					"Sha512CheckSum": "433d1ff8534f898235b7b6db3d544e42c404e757e4dc949f99a01cbeaf1242ad13ca6955c7f6997568b8432362131871028a56e51af9fd032b8fa3c5e7025046",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.32.10",
+			"ReleaseDate": "2025-10-14T15:04:38Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.32.10_amd64.deb",
+					"Sha512CheckSum": "53bf7339709baed4dc3b47caab5f652c9419510b2c425c8fea475bf79e59cdd6ac0e28870fcf3161de08f02eedc2a9821136fd60ca38313ca3a8eb1af1d2f695",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.32.10-1.x86_64.rpm",
+					"Sha512CheckSum": "30b2f6f7cfc19927b2e12eb0bd775005bf9022de9e52d79eb694d5b1a52c8d7d92a72aee265d54c809f4a9292b21aae6562f40e9ed30f0afa4078ceaee1f2156",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.32.7",
+			"ReleaseDate": "2025-09-18T08:43:33Z",
+			"RolloutPercentage": 0.5,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.32.7_amd64.deb",
+					"Sha512CheckSum": "6a34ef73e6c4c84454bdea809cd299bb1eb00237391d519e1c6699ae099535953d1b595c47cdaba9a0acb918eed70319faeb5a63a7fc390eaa5d3561f9ca3406",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.32.7-1.x86_64.rpm",
+					"Sha512CheckSum": "97589fabf0f7da175b7e4a68eadad61e1342f9ae66ab61175c9065d457ed156c5a5a5d3f3a75f4dcfc4027406b0743d4a00aa25ad1bb73423b12f7e3d78c49a1",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.32.6",
+			"ReleaseDate": "2025-09-09T12:59:31Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.32.6_amd64.deb",
+					"Sha512CheckSum": "6aacd53738514a29317a0340281120e3171b46233121e26cbf21500d04de82432de4d2ab41522a8fa61df2fa04a860b40ffa3ddc6dba079c53c2ce1b3771c69d",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.32.6-1.x86_64.rpm",
+					"Sha512CheckSum": "0bae05bafea875216df905f6c85b7004bdd306c2c43cbf39b38d6eca413d8f58514a6b98622750ceb39dbb28107621674897ab3e7bedb70dd295481d24237a6b",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.32.5",
+			"ReleaseDate": "2025-08-29T12:51:00Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.32.5_amd64.deb",
+					"Sha512CheckSum": "eed0fe809e10ebf57dc73abf057687d7f5515224b191ea510a51f9e682f7a27928b808a6762827a421075cf3b20d4d78bf9834deff184aa3e022bf52c1a6307c",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.32.5-1.x86_64.rpm",
+					"Sha512CheckSum": "23f570d535ea60aa256b866f7892c5482ebe5caf556311d98af2ded8ccd594640bf625c5cf8b47d498a286318609f55eaeb5222cc8ed7a96543c9b83bfee9281",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.32.3",
+			"ReleaseDate": "2025-07-30T15:24:47Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.32.3_amd64.deb",
+					"Sha512CheckSum": "075b17c59b96cf0a3f3c1afddcd74c6d4ec60a0737c6bbdf497d7ffec46c360a580272bc710f64b0f9269606260bdc4acea191db6ac460a8c1104f4f0ac902aa",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.32.3-1.x86_64.rpm",
+					"Sha512CheckSum": "959a980cbf7f4acafe6aff43bd351ff73fd9d6a9c0fef87651d009e11effa0037792f4ae1c0ef3ff50ed999fe8f1747bd82f75976adbf99b94fb9b5bbcabe121",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.32.2",
+			"ReleaseDate": "2025-07-01T07:46:12Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.32.2_amd64.deb",
+					"Sha512CheckSum": "33b12053cb14facaa968eea5cff8723ad25de285a2020572cdaeb0bda0013d8a697fe38dbc16dd833132eeb7412ea3ce154a8974210a67c096b998ddacd967d0",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.32.2-1.x86_64.rpm",
+					"Sha512CheckSum": "dee0e3efad3336cec8df2654ddac36972e1aae176aa182930869cca78086b07401c28b25a6108e6fae2e57529e8d579ef57f51e0a3f9a0d24d06345eb6526d04",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.32.0",
+			"ReleaseDate": "2025-06-24T07:42:46Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.32.0_amd64.deb",
+					"Sha512CheckSum": "179a8716de01470984279d5288d70b407f7bf78595d26bace2cdc9ce9deacb08ce57c343d5cc55a181a522691467942a4f4958d52407dd0cabf6cfc8d89ba6b9",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.32.0-1.x86_64.rpm",
+					"Sha512CheckSum": "d29bd6f24bb07f41556f4c3db8b1ab7e2855a1993c1f9640d6e4dbfff49ac8aaa2e2d1b4d6f3b413236d717d55a438cba5c3d0620e7d88b6fefabe5b880cdd56",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.31.5",
+			"ReleaseDate": "2025-06-04T15:29:39Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.31.5_amd64.deb",
+					"Sha512CheckSum": "d8f03a0b029bf0134c6c8ff4971eedbf5c3426c57eeb188536b2df1dcaeaf760803120c559087227a9bd638f37841f7489fb41e1d979557690ca0ab8fefd9590",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.31.5-1.x86_64.rpm",
+					"Sha512CheckSum": "afe29e0d59fa8e6b58c3357d39443e337e2c12fe4a5286e796d04cafdb9ef2a8a344f843e8398e01042e2e719b276f84542302630a808845432f77084bd69a82",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.31.4",
+			"ReleaseDate": "2025-05-19T13:46:12Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.31.4_amd64.deb",
+					"Sha512CheckSum": "2f24ecd8f296d482a037e2131d3556bbe45fd792dbaf5b2b12923977be66b2cc87eba17f8e752d7983b6d9d269d737f73eae2c3ce5c8504c9e1fca55bfb4d857",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.31.4-1.x86_64.rpm",
+					"Sha512CheckSum": "25bb2c802e91e7c81975e1f5d33598f8c4ddea310d4a080a95cd1b4b01bbfb887c895495de1bc07f804344370645648fb7c9f49a07573e3ba43faf098cdb5521",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.31.3",
+			"ReleaseDate": "2025-05-14T10:40:00Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.31.3_amd64.deb",
+					"Sha512CheckSum": "85a4df04443f0a2fc280547507ba934ad8f61c0b794845d40bf1877f398c55ed8b4ea00da797fa31aae93fc4385676576cd56d381cb8e2119436a7e52c2b1ce7",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.31.3-1.x86_64.rpm",
+					"Sha512CheckSum": "f519596f6782abd5d4d00079ab17a2c2ded00d92297df6e9994e38c26c74372076c4968dbdbc4de16d94a555051ec93250b484ed000dfe75415d99a508269cc3",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.31.2",
+			"ReleaseDate": "2025-05-12T06:46:44Z",
+			"RolloutPercentage": 0.2,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.31.2_amd64.deb",
+					"Sha512CheckSum": "29ed551184f285def8b69285645ec3381a189e979322cc772cf172b9bf08c2b535500aad6e5f8c8a61cf92c29b9ef1a17d2126133115c1829edac443dedc4461",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.31.2-1.x86_64.rpm",
+					"Sha512CheckSum": "2769ca626b693ad4ede0876b40aba9deb809b04e5ba0ea9b77f7a2ddc925f827df7ed2835aac961f93d2ef37aa4a8a5a97c9a6c4dcfeda980f34b3cb298cf52e",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.31.1",
+			"ReleaseDate": "2025-04-15T09:10:42Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.31.1_amd64.deb",
+					"Sha512CheckSum": "599b50e055ba0d4b82e1d4f3dbb86407d88dc9b2fd6bb03efbbb9ad66fd053bb580a9a4f1f472286ed9d61b3b3723872e58f8553e065054abb729e3ccc3384b0",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.31.1-1.x86_64.rpm",
+					"Sha512CheckSum": "271c24e9318c185ac5bb3a9917c10a124f496a61e4940fdc07cdc27492f6d52e892584aab931b553a4879b32b5e26f1e316eb088e043e20d2c8b78fe21b01056",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.31.0",
+			"ReleaseDate": "2025-04-08T12:14:01Z",
+			"RolloutPercentage": 0.2,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.31.0_amd64.deb",
+					"Sha512CheckSum": "de1cc46b2bf8a3b51bc9bda2f9be2badd455eb5a23f6673553367ff8bbfdd66d44ed2a09c234295cf8fc713ab768b54dfd34f0baf133e95e9d310871ba017ac5",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.31.0-1.x86_64.rpm",
+					"Sha512CheckSum": "5a16fd1867c5f742dc90296bd9eafe361a1f804cfbaccba9979f1c600e22e1b8916dd53a696a48280156c32639830ed19712842c7fa81e3c91a59ba5fe5ed5ca",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.30.1",
+			"ReleaseDate": "2025-03-24T14:25:22Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.30.1_amd64.deb",
+					"Sha512CheckSum": "17c73956c35bb6f18c9c0be6fa7b721ae7202243f60e57af4fd03a31ef58b284bbf9d2afe4818ad9fef67c601b2b7aac781fe2e9c4edaa852c2e53d0fd48bb90",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.30.1-1.x86_64.rpm",
+					"Sha512CheckSum": "af377c6c2ba267a42792d17645df409ed59900ad49f433036bbb9ced9d9e290ea3685cc894e75bea53c64af2d488d8d40768037b9d7b6f4781bb3e339e5db4ca",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.30.0",
+			"ReleaseDate": "2025-03-21T18:05:27Z",
+			"RolloutPercentage": 0.2,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.30.0_amd64.deb",
+					"Sha512CheckSum": "059ecf59f7bf3de1dd52454138d879530cfc3232483b267d39b80eaae108b219be07b8b8f2f926e381d0f856119052593f9e021f7ef9da1db02a266657db8e41",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.30.0-1.x86_64.rpm",
+					"Sha512CheckSum": "c03cf3f011a85732bcd63e020fb8b94f3df611cafd3481f561ed9a6596803753250dc3efe75508ab8232cde500153e1455a761678848244b885d8a1cc277379c",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.29.8",
+			"ReleaseDate": "2025-03-07T11:18:11Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.29.8_amd64.deb",
+					"Sha512CheckSum": "e32ee50857df8269060b774df932d363e653006a16aa06ba2d7d246205b8c04f2d1247bc5429297abde1710a860546ae63b1837ce81f5c7abb58e80a4cb9e400",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.29.8-1.x86_64.rpm",
+					"Sha512CheckSum": "9f0ab5fdfcbd8b4a5ae9e9acfe1bccd6300edc00f7abca7f092f7d024f2f007818a26e1151e68f8e12e2e38a760408d16ee8da96e2d6b8e3be2a1aa7caaf8317",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.29.5",
+			"ReleaseDate": "2025-03-03T10:59:00Z",
+			"RolloutPercentage": 0.5,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.29.5_amd64.deb",
+					"Sha512CheckSum": "421e0da69d7bdb6368544512cc76ab1e7d3656a93bc57c5eee64a2e2b5216bb0c504ca9dce062875d16a68f290ec1d2facd2171c06061a85ce968ac9c2de3e88",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.29.5-1.x86_64.rpm",
+					"Sha512CheckSum": "5beba040b27a68197de56eff0cf6929371f7024954bee4ca459b3e433c1ee7bbe5cd3ca11e29d9db98d3caab4255487ce5643012d76cbd8efb94c30f5966f535",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.29.3",
+			"ReleaseDate": "2025-02-17T09:29:07Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.29.3_amd64.deb",
+					"Sha512CheckSum": "65613c8959b7bd67909254f9c17c79de8ff8ac3b2b706d81e4021c36d9ea1dcbf99254ef85921044eace0463c277938af9f46eaa0f2caab3158118941ead8183",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.29.3-1.x86_64.rpm",
+					"Sha512CheckSum": "5603e72a93d40c34a9a164115b75fb5453315da0e4566180cfdf8a7f233adc31a069aa7a0fc4b98b4186860a8a990d2ee452f56587435b73de0290f10f134d91",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.29.2",
+			"ReleaseDate": "2025-02-07T15:19:47Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.29.2_amd64.deb",
+					"Sha512CheckSum": "839ec2cfd4d7893535732dac3b23c0509b9f1d64b66bbcaccacfeb2ac297487002df8f36a09c683e956e13ece0242826f4d999b3f1fa881d823ccfef23441953",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.29.2-1.x86_64.rpm",
+					"Sha512CheckSum": "6b843e78baf594e6ccdda02a2f9e66feb3f3f5d451e90e08274a9bfe280ffb28de1bce785d6dcf2c982862471c591c6e9d4b1941a384616a201f86291379c03e",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.29.1",
+			"ReleaseDate": "2025-02-04T18:10:23Z",
+			"RolloutPercentage": 0.5,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.29.1_amd64.deb",
+					"Sha512CheckSum": "e0469e5cceed54d33b085814d4ff80a0b9f8f72c2a518acbb63932481c103a2a23a1a28c5a4c639d0a5dd006856f83fc3b1b7334c53fbd406e76d9dc5e3f7cb0",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.29.1-1.x86_64.rpm",
+					"Sha512CheckSum": "e0a514fba234605c17cbbee08a93ff9ee982390dc260e81f212a965d02110413b64357627fce71a0d47f2d7c1e8b32e0e0bc8802970562529b840076ffd0b9fd",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.29.0",
+			"ReleaseDate": "2025-01-29T09:03:28Z",
+			"RolloutPercentage": 0.5,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.29.0_amd64.deb",
+					"Sha512CheckSum": "99952e8e32c058b796d20920604a835007c2651d112fcf32ed923a22e31cb02e66f3ba0ce737ba053ef7c0746d8d893e11b4dd716b5ec225373f1d238564095b",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.29.0-1.x86_64.rpm",
+					"Sha512CheckSum": "fc8db6ee06abdaea8e05bc9bcb2d546848c92fa9c688ea5af814b13aed99557b2754dcc040ad9e4e5045ec7e3a8b5ee323c54d5f943ebcf79c7333d6899efa07",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.28.0",
+			"ReleaseDate": "2025-01-21T11:12:45Z",
+			"RolloutPercentage": 0.5,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.28.0_amd64.deb",
+					"Sha512CheckSum": "620c69bde0db1a2dcdd7011ae181d464b1353b86e57236d97b2c490b28acf0a42a197296b33bf655a9afdadbd81322dcef8c6cbe7e47413f9a0afb93b6abaaa4",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.28.0-1.x86_64.rpm",
+					"Sha512CheckSum": "87944f45cc1a567df42ffa4f941ca56ddf06e75654848b056601a5b0126046fcf65afc7128eb5b68884a1ca5af82a20545c374a24f59d2ba41156a06d15701c9",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.27.2",
+			"ReleaseDate": "2025-01-06T16:27:06Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.27.2_amd64.deb",
+					"Sha512CheckSum": "85456c5433d6bd823c5227f75cd4ced29a05b6eabae48ae2fc448c2b7925ea8c8ee00e8d947e2ab2092f431d361a194237a8383e1c508e8c72ab223b814d0791",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.27.2-1.x86_64.rpm",
+					"Sha512CheckSum": "1dd679a5de89835e66101b813b7980d9bdb654fd179f520016bc48bb66259f435522ba155d1c1e0fe9655d96e2135b667a8145f41595e7f551ffbd21714ef7b4",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.27.0",
+			"ReleaseDate": "2024-12-20T16:12:43Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.27.0_amd64.deb",
+					"Sha512CheckSum": "8fad59e82621e18ba6090b280ab4eb2c1a718f8157785c0b4cf38cb80cfb4daf524e236fd7171a6cdaaf75befb924deb836bdf681312cc31ff9421b46387b78c",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.27.0-1.x86_64.rpm",
+					"Sha512CheckSum": "d862f51d6faa6c8e8edd490e9f60ccc53c454e25a60ebc9a4ed4be57f6f9b4eb947134cea516dd3699c980e546073b322ddd1c564a0af5aeb314cd11a2405168",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.26.0",
+			"ReleaseDate": "2024-12-09T11:33:02Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.26.0_amd64.deb",
+					"Sha512CheckSum": "a821b0f644e83fc4b53de8ef37916befb44bb29abe697b0a0a71d539af9eb14b386dd3b789e49957b887a7fa3bba8dc7eeebfe0a4d53cfd6de7e839527fec629",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.26.0-1.x86_64.rpm",
+					"Sha512CheckSum": "9cc8eb3ec2a4cdb744a1b7f3258f22ce91b2dc04ad203b1f7d102434a09e8b909dcbd4c7f3599a2a41b7728f2a08c268538c86a4059fb6ad91cd2f5e061fba1d",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.25.0",
+			"ReleaseDate": "2024-11-25T11:50:55Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.25.0_amd64.deb",
+					"Sha512CheckSum": "aa1bb99b594210abf861c6767dbee09f1fdc6f784f82e9ad2323ae6a0f2df311020c66f1c22caafb2760b207d27f57f9bac7fd1764939c9951b09caad765751d",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.25.0-1.x86_64.rpm",
+					"Sha512CheckSum": "30d54f85e3f1cb3452761d2fc6899e6f21f31d03c0684485cea0d6211022440b6a8c2ba42076b656a37a8e879c8b838655bd7e980136deeea8d666c3883b4912",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.24.4",
+			"ReleaseDate": "2024-11-13T06:42:56Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.24.4_amd64.deb",
+					"Sha512CheckSum": "2727d8492b4fb56679cc02c416a22e219d8e9bf1745f87e2a72e25b1661057bfa5b85ef68945a671944c79817d04ff24f3d1c81cfc8597276ee938b3403b389f",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.24.4-1.x86_64.rpm",
+					"Sha512CheckSum": "5f1b13373c805972906540ff3c308f225311fccc2cec423ff1a55a51a212ff3a1de879d65c69beb62f820e9c81c90fdc4db42c052345e4d40420c7a0e4fad4c6",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.24.3",
+			"ReleaseDate": "2024-11-11T14:58:57Z",
+			"RolloutPercentage": 0.2,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.24.3_amd64.deb",
+					"Sha512CheckSum": "3cb1820ea627e7ba3531c9e47226af02c29f8b51eff1304167fa5f39ece6705849827764c0e858c17220daca4ca6e8080a5bc7f17705151995012b5956e24811",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.24.3-1.x86_64.rpm",
+					"Sha512CheckSum": "bc457f1a0194f4344892d220a562aeb0c32d985726552ce2628f31a9d1ad4c9aeba0bd104b19ed36aa9232ed766e67ec0c84da281be6ab778b03c5a3f22a204a",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.24.1",
+			"ReleaseDate": "2024-10-31T10:21:07Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.24.1_amd64.deb",
+					"Sha512CheckSum": "711d1a07747c79994e512881e209c3505ff68441b35a5b8cd9343aab028084ab110d9ec2ddeb52729305d1c6c2aaf36d40ab7f38df53669c561a8b7bff96f62d",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.24.1-1.x86_64.rpm",
+					"Sha512CheckSum": "4f04c135a7dfbb128d6930fb3d1a4cca6c1427c719a956abdb35a8e2c96bfd772bcb81803c6e98f3fa460ef3fbbc324285fd7e93a20f5851c0dcbf4e2781f49a",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.24.0",
+			"ReleaseDate": "2024-10-22T13:25:11Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.24.0_amd64.deb",
+					"Sha512CheckSum": "e5aef0a1be5714d4012e368bf47d4ebfd14c36a81e71dcd0de09c15cbe6e3b1c80ada01bed952a16577c7c0d62057f4c5f6c37391b89b3fea78fb4db7d2b1e3c",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.24.0-1.x86_64.rpm",
+					"Sha512CheckSum": "a443435e533500693a4cacc7a2055dffb15327870a360ba76356d0876c271935bdf38b5af8cdfc5e45048af2fdd0b31666881d9dfc039cce75541556a1aa982f",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.23.1",
+			"ReleaseDate": "2024-10-07T14:52:04Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.23.1_amd64.deb",
+					"Sha512CheckSum": "f7594cf8cadefd985ccb38408774c3c999d9ce973257143ddb8d5752f03f7032776e82618e77f5080654acbed06ec134e5ad58fed56f02c1ecff5ddb193770cd",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.23.1-1.x86_64.rpm",
+					"Sha512CheckSum": "194f96a991f944b76efacb05979ac3b9209a82bd132e16d3397e4596fc334e6f82932aa59274c7422b254f09647c1f57aa7a922a1bc9ff868a994fff5330cf69",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.23.0",
+			"ReleaseDate": "2024-09-20T14:29:43Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass_1.23.0_amd64.deb",
+					"Sha512CheckSum": "246443de477e25e851a9b677923929304c56479cd3a76238d72d23c4a889f5c0abfe845e748c8fc75bfaea63bc05770621a8051249cafa248b57e975afaa9be5",
+					"Args": "",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/pass/linux/proton-pass-1.23.0-1.x86_64.rpm",
+					"Sha512CheckSum": "554b3301d91535b87095755477f3cf263e5a3a4cd14925cde13c64ea6431b82d7dcd7284478bc630c4950a600d90b57ad9dde1d395e85dbd96f1646125168a1b",
+					"Args": "",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.22.3",
+			"ReleaseDate": "2024-08-29T13:45:53Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.22.3.deb",
+					"Sha512CheckSum": "bd008fb28993ea8a8bd1c67c1c414f188bfc7814c9b3eba422d7aa48301ec79a046a7149bc3e9c0e6922f067ea0d5fda65fcca6871389fdf5c5b87090dbcf11f",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.22.3.rpm",
+					"Sha512CheckSum": "e8d2aaf9c215e0db52432117a123ef48c6f659c78ae06545b5d331fb55de243718b1a334e39cd2dadc7de5864421ed519c5d042529a9386098704b693aa0f540",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.22.2",
+			"ReleaseDate": "2024-08-26T10:27:50Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.22.2.deb",
+					"Sha512CheckSum": "8a7e978e9adf0657d4e5f6d9a29729d37ba35c696d66dc8159327e0faa512a355c9e3f6c0ce0da6fec41696b2d2c9aeacda4378925f5bb7e5178d9e629fd99c0",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.22.2.rpm",
+					"Sha512CheckSum": "760fac62c89ea12174e17334e16cc531aec87c1e4f1c64c5bcbbb190b3d4f4986d905c0ff6612b23ad61ff8b61978e43891fd73dbfe9fe81b982b52d350c58a6",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.22.1",
+			"ReleaseDate": "2024-08-20T08:34:44Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.22.1.deb",
+					"Sha512CheckSum": "8c693d46130c223a4b4eed07eec88f5cbda5971bf7260118d458f21c223e330bace6346e5cbd507fdac09631d33068327fd32e55e54e16ea069cf7a6a7d10b0a",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.22.1.rpm",
+					"Sha512CheckSum": "26593539aad088274f3774e8a766e5722f4c23a87bacedb3f373f3b9f9e6d845515974eeb770f08c45bfd6261dd6fc8da0e98e61315495640f7e2465299d48d3",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.22.0",
+			"ReleaseDate": "2024-08-06T11:57:50Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.22.0.deb",
+					"Sha512CheckSum": "981a9ffa8c2db800cf59f2b863ba24ca4ddfc363b0765beb0eb1aab1b440ff7deb5636e55a9741e6d5ffdd01a7d8431f6ca454ec5bfa1c01abe4c31516885f4f",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.22.0.rpm",
+					"Sha512CheckSum": "b95202460ebf008cc159f328e37c5a887a7c6bd1e5acb10542f0c78c76c7f80cf0048b5bcb6e0b6a5f7156095e0f693573be29b3acf1cca42651da9b4943773e",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.21.0",
+			"ReleaseDate": "2024-07-30T11:30:24Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.21.0.deb",
+					"Sha512CheckSum": "0ed773444f9f8faa6aa0d470c03e1881f09eab71e5d28eb35c10b86effb6bc93f3c8a2d4fe67dafad8dcb6ea625893d7d6ab91728537f167905cc3959ebbde4c",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.21.0.rpm",
+					"Sha512CheckSum": "4994ff3d4973b2cb5ef17087a1bd1cbc59992888775b6c5430fba9a50eee80c9759912ac7030d9918408635561692d322df062e69794543e43bcb6db46e9684b",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.20.2",
+			"ReleaseDate": "2024-07-25T09:14:36Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.20.2.deb",
+					"Sha512CheckSum": "2d9caef2b4ee166724c4b00ce4843882df5e9f0dc3b8a8ee32358740f38608036d67b357ebadf99114cf11912a9a400971577e78cecf2b8a0c3a85cf82721de9",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.20.2.rpm",
+					"Sha512CheckSum": "d5ca12f3b76c44c8e908ec1b9c1d924db65e39f98497925b262c1c5c7056d3bb243eba9de06035c30feb1d72cd611932e23139d8cac45b62ee8c8245b689fd92",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.20.1",
+			"ReleaseDate": "2024-07-12T13:43:25Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.20.1.deb",
+					"Sha512CheckSum": "294877a577c02525dd098fd52014ec651f6539539464280115e159ae756c77a8af26f047c2ee7ba9afa82fc099f8d239970da231d3df995b5351993f20829b82",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.20.1.rpm",
+					"Sha512CheckSum": "8395014e334f87e1cb1e9ecd2ce680148af6c70cc0a110e09ed53e39576cbd69c83ece716712913b6fe132ea6851e36ef2fb499e1985bd7000b842f76bdc7b62",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.20.0",
+			"ReleaseDate": "2024-07-08T08:08:48Z",
+			"RolloutPercentage": 0.2,
+			"File": [
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.20.0.deb",
+					"Sha512CheckSum": "eb5c4bc04942f9e80725a8d7f29bf913ec2b4330c84cf52fab4c17458af75f32fa986df6b10d1f992d384e5a63105510de965a148bfdbc43391feafd91258498",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.20.0.rpm",
+					"Sha512CheckSum": "56973d60c902b9eab4321ebcf0771e4ed202a90cb1d549cb1bbfa37d75744954232f29c188fb2f9b1f4465648f676d2674980a5cb066d50e143c99ef4faa6aba",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.19.2",
+			"ReleaseDate": "2024-07-02T16:44:11Z",
+			"RolloutPercentage": 1,
+			"File": [
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.19.2.deb",
+					"Sha512CheckSum": "490676904c749a36648b57692c4c9285db5e42ca67c616ff428862981e7041fe2e4c081bd5c62bda0a7e2acb4c4800eee971184cfb58aa8ad5c728779f32145a",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.19.2.rpm",
+					"Sha512CheckSum": "165dd224dc10281887fbb40c5cdd0219d28e5516d2f125d9b86eba8e36c9751a26a9c4fefa6ad120d139709c25acf7fc35d1f7d3bffd7672ce4637488419c882",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.18.0",
+			"ReleaseDate": "2024-06-25T13:29:17Z",
+			"RolloutPercentage": 0.2,
+			"File": [
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.18.0.deb",
+					"Sha512CheckSum": "45d981eacaf2c22eaad5f1f19445fd77de3d51fb0120cb3acb79ebd799d2cd978e8481e1824cdfae781d011e5dbc5650ac1ce1f2f6211d6b75cec226e2d5f76b",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.18.0.rpm",
+					"Sha512CheckSum": "a8fa10b82696619b1e6bef26595da296cf2fb9fe4ff3f7b84667532e4ef7e4e9bac490a3eb80b51810249d0a1afc9aabbbb4093ed2d65903cc83895dfbad711e",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.17.5",
+			"ReleaseDate": "2024-06-06T07:44:39Z",
+			"RolloutPercentage": 0.99,
+			"File": [
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.17.5.deb",
+					"Sha512CheckSum": "76a303dea07d312cf6056b004a6312564fa093af6a7bb7fb5e6d5fc977dc829f37b6ef043909dfcb07d633cead4c58e4bb7c84f783ea143fb5e7f083eee9d4d4",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.17.5.rpm",
+					"Sha512CheckSum": "ac7aa2e985b4adc64f76ca9ceacb3817d14260d1f5902095734f1f30cba06875246fe031fd3dc4dcfeb7ec4f744c6b3cfc32672313d078c15f851c363ab000a1",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		},
+		{
+			"CategoryName": "Stable",
+			"Version": "1.17.4",
+			"ReleaseDate": "2024-05-28T13:53:36Z",
+			"RolloutPercentage": 0.5,
+			"File": [
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.17.4.deb",
+					"Sha512CheckSum": "38d239726c7810598058352581fe0050dc121510c328d87b4e456f1dec421946413ad31ae09fb357a95a9808943e03ef70ba5ffb9e4c705793c1a9e02d1affd5",
+					"Identifier": ".deb (Ubuntu/Debian)"
+				},
+				{
+					"Url": "https://proton.me/download/PassDesktop/linux/x64/ProtonPass_1.17.4.rpm",
+					"Sha512CheckSum": "ab6df7975cef5f4d05db871375b43eec427abb6fb6a2652a9188175fd211f8dcb3fa4a8d9eff99f66192d1dbd61ed3e7af0246836f8c39e6ec91573d011fcb86",
+					"Identifier": ".rpm (Fedora/RHEL)"
+				}
+			]
+		}
+	]
+}
