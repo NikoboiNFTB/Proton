@@ -1,8 +1,23 @@
-# Proton-VPN
+# Proton
 
-Proton related oddjobs.
+Proton AG related stuff.
 
-## [`install-icons`](/install-icons)
+## VPN
+
+Proton VPN related stuff.
+
+> [!WARNING]
+> Currently all broken. Changed repo name and structure and I don't feel like fixing it now.
+
+If you need to use anything VPN related from this repo, clone this repo at commit **4c288ac**.
+
+```
+git clone https://github.com/NikoboiNFTB/Proton ~/GitHub/NikoboiNFTB/Proton-VPN
+cd ~/GitHub/NikoboiNFTB/Proton-VPN
+git checkout 4c288ac
+```
+
+### [`install-icons`](/install-icons)
 
 Install Proton SVG files as user or root, i.e. in `~/.local/share/icons/` or `/usr/share/icons/`. The folder name `ProtonAG` is used for the icons.
 
@@ -11,10 +26,13 @@ Proton's SVG files are visually superior to their app icons.
 Run the script either from this repo or remotely;
 
 ```sh
-bash <(wget -qO- https://proton.nikoboi.dev/install-icons)
+~~bash <(wget -qO- https://proton.nikoboi.dev/install-icons)~~
 ```
 
-> > [proton.nikoboi.dev](https://proton.nikoboi.dev/) resolves to this repository.
+> [!WARNING]
+> Not working.
+
+> [proton.nikoboi.dev](https://proton.nikoboi.dev/) resolves to this repository.
 
 ## [`setup`](/setup)
 
