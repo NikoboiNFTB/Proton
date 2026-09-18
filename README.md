@@ -6,19 +6,19 @@ Proton AG related stuff.
 
 Automatically updates Proton Authenticator, Proton Mail and Proton Pass on Linux (Debian->), only if needed. Can be run locally ([download](/update/script)) or remotely:
 
-```
+```sh
 bash <(wget -qO- https://proton.nikoboi.dev/update/script)
 ```
 
 As per usual with my stuff you can just install it:
 
-```
+```sh
 bash <(wget -qO- https://proton.nikoboi.dev/update/install)
 ```
 
 Then run it using:
 
-```
+```sh
 proton-update
 ```
 
@@ -109,7 +109,7 @@ Proton VPN related stuff.
 
 If you need to use anything VPN related from this repo, clone this repo at commit **4c288ac**.
 
-```
+```sh
 git clone https://github.com/NikoboiNFTB/Proton ~/GitHub/NikoboiNFTB/Proton-VPN
 cd ~/GitHub/NikoboiNFTB/Proton-VPN
 git checkout 4c288ac
@@ -124,7 +124,7 @@ Proton's SVG files are visually superior to their app icons.
 Run the script either from this repo or remotely;
 
 ```sh
-~~bash <(wget -qO- https://proton.nikoboi.dev/install-icons)~~
+bash <(wget -qO- https://proton.nikoboi.dev/install-icons)
 ```
 
 > [!WARNING]
