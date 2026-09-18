@@ -4,13 +4,13 @@ Proton AG related stuff.
 
 ## Update Script
 
-Automatically updates Proton Authenticator, Proton Mail and Proton Pass on Linux, only if needed. Can be run locally ([download](/update/script)) or remotely:
+Automatically updates Proton Authenticator, Proton Mail and Proton Pass on Linux (Debian->), only if needed. Can be run locally ([download](/update/script)) or remotely:
 
 ```
 bash <(wget -qO- https://proton.nikoboi.dev/update/script)
 ```
 
-Example result:
+Example result of an update:
 
 ```sh
 user@pc:~/GitHub/NikoboiNFTB/Proton$ bash update
@@ -62,6 +62,29 @@ user@pc:~/GitHub/NikoboiNFTB/Proton$
 ```
 
 Yeah pretty cool ig idk. Don't have to manually download from Proton every update anymore.
+
+Example result of no updates available:
+
+```sh
+user@pc:~$ bash <(wget -qO- https://proton.nikoboi.dev/update/script)
+==> Pass
+    Installed: 1.40.2
+    Latest:    1.40.2
+    Up to date.
+
+==> Authenticator
+    Installed: 1.1.6
+    Latest:    1.1.6
+    Up to date.
+
+==> Mail
+    Installed: 1.14.0
+    Latest:    1.14.0
+    Up to date.
+
+All Proton apps are up to date.
+user@pc:~$
+```
 
 ## VPN
 
