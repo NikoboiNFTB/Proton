@@ -10,6 +10,20 @@ Automatically updates Proton Authenticator, Proton Mail and Proton Pass on Linux
 bash <(wget -qO- https://proton.nikoboi.dev/update/script)
 ```
 
+As per usual with my stuff you can just install it:
+
+```
+bash <(wget -qO- https://proton.nikoboi.dev/update/install)
+```
+
+Then run it using:
+
+```
+proton-update
+```
+
+---
+
 Example result of an update:
 
 ```sh

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+set -e
+
+echo "sudo is needed to install into /usr/local/bin/"
+
+wget -qO- https://proton.nikoboi.dev/update/script |
+	sudo tee /usr/local/bin/proton-update >/dev/null
+sudo chmod 755 /usr/local/bin/proton-update
+
+echo "Successfully installed Proton Update Script as 'proton-update'"
