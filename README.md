@@ -109,7 +109,8 @@ Install Proton's beautiful SVG icons into `~/.local/share/icons/hicolor/scalable
 Fully remote installation:
 
 ```sh
-bash <(wget -qO- https://proton.nikoboi.dev/icons/install) https://proton.nikoboi.dev/icons/links.txt
+bash <(wget -qO- https://proton.nikoboi.dev/icons/install) \
+    https://proton.nikoboi.dev/icons/links.txt
 ```
 
 Other options. Clone the repository:

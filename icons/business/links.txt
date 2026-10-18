@@ -1,0 +1,6 @@
+proton-business-digital-consultancies.svg=https://pmecdn.protonweb.com/image-transformation/?s=a&image=proton_illustration_laptop_user_034c06a398.svg
+proton-business-healthcare.svg=https://pmecdn.protonweb.com/image-transformation/?s=a&image=Top_Element_Desktop_1_6448290fa0.svg
+proton-business-law-and-finance.svg=https://pmecdn.protonweb.com/image-transformation/?s=a&image=proton_illustration_finance_32858fefef.svg
+proton-business-news-and-media.svg=https://pmecdn.protonweb.com/image-transformation/?s=a&image=Top_Element_Desktop_3_da7d64cb63.svg
+proton-business-nonprofits.svg=https://pmecdn.protonweb.com/image-transformation/?s=a&image=Top_Element_Desktop_4_7dfb69dde4.svg
+proton-business-tech.svg=https://pmecdn.protonweb.com/image-transformation/?s=a&image=keep_all_software_up_to_date_efd04a33d9.svg
