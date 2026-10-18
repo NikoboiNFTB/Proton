@@ -1,4 +1,4 @@
-proton-auth.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/auth/auth-badge.svg
+proton-authenticator.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/auth/auth-badge.svg
 proton-b2b.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/proton/proton-badge-b2b.svg
 proton-calendar.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/calendar/calendar-badge.svg
 proton-docs.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/docs/docs-badge.svg

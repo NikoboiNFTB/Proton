@@ -108,13 +108,13 @@ Install Proton's beautiful SVG icons into `~/.local/share/icons/hicolor/scalable
 
 Fully remote installation:
 
-```
+```sh
 bash <(wget -qO- https://proton.nikoboi.dev/icons/install) https://proton.nikoboi.dev/icons/links.txt
 ```
 
 Other options. Clone the repository:
 
-```
+```sh
 mkdir -p $HOME/GitHub/NikoboiNFTB/Proton
 git clone https://github.com/NikoboiNFTB/Proton $HOME/GitHub/NikoboiNFTB/Proton
 cd $HOME/GitHub/NikoboiNFTB/Proton/icons
@@ -122,7 +122,7 @@ cd $HOME/GitHub/NikoboiNFTB/Proton/icons
 
 The `--debug` flag is used to download all Proton SVG files into `icons/` folders in the same directory as `links.txt`:
 
-```
+```sh
 # Downloads all files into `/icons/icons/`
 bash install --debug links.txt
 

@@ -3,15 +3,15 @@
 set -euo pipefail
 
 usage() {
-	echo "Usage: $0 [--debug] <link-list>"
+	echo "Usage: $0 [--debug] <link-list-path-or-URL>"
 	echo
 	echo "Options:"
-	echo "  --debug    Download icons beside the link-list file instead of hicolor."
+	echo "  --debug    Download icons into an icons/ subdirectory instead of hicolor."
 	echo "  -h, --help Show this help message."
 }
 
 DEBUG=0
-LIST_FILE=""
+LIST_SOURCE=""
 
 for arg in "$@"; do
 	case "$arg" in
@@ -23,24 +23,19 @@ for arg in "$@"; do
 		exit 0
 		;;
 	*)
-		if [ -n "$LIST_FILE" ]; then
+		if [ -n "$LIST_SOURCE" ]; then
 			echo "Error: Unexpected argument '$arg'." >&2
 			usage >&2
 			exit 1
 		fi
-		LIST_FILE="$arg"
+		LIST_SOURCE="$arg"
 		;;
 	esac
 done
 
-if [ -z "$LIST_FILE" ]; then
-	echo "Error: A link-list path is required." >&2
+if [ -z "$LIST_SOURCE" ]; then
+	echo "Error: A link-list path or URL is required." >&2
 	usage >&2
-	exit 1
-fi
-
-if [ ! -f "$LIST_FILE" ] || [ ! -r "$LIST_FILE" ]; then
-	echo "Error: Link-list file does not exist or is not readable: $LIST_FILE" >&2
 	exit 1
 fi
 
@@ -49,10 +44,40 @@ if [ -z "${HOME:-}" ]; then
 	exit 1
 fi
 
-# Resolve the list file's directory for debug downloads.
-LIST_DIR="$(cd -- "$(dirname -- "$LIST_FILE")" && pwd)"
-LIST_FILE="$LIST_DIR/$(basename -- "$LIST_FILE")"
+TMP_LIST=""
 
+cleanup() {
+	if [ -n "$TMP_LIST" ]; then
+		rm -f -- "$TMP_LIST"
+	fi
+}
+
+trap cleanup EXIT
+
+# Download remote lists to a temporary file.
+if [[ "$LIST_SOURCE" =~ ^https?:// ]]; then
+	TMP_LIST="$(mktemp)"
+
+	echo "Downloading link list..."
+
+	if ! wget -qO "$TMP_LIST" "$LIST_SOURCE"; then
+		echo "Error: Failed to download link list: $LIST_SOURCE" >&2
+		exit 1
+	fi
+
+	LIST_FILE="$TMP_LIST"
+	LIST_DIR="$PWD"
+else
+	if [ ! -r "$LIST_SOURCE" ]; then
+		echo "Error: Link list is not readable: $LIST_SOURCE" >&2
+		exit 1
+	fi
+
+	LIST_DIR="$(cd -- "$(dirname -- "$LIST_SOURCE")" && pwd)"
+	LIST_FILE="$LIST_DIR/$(basename -- "$LIST_SOURCE")"
+fi
+
+# Choose the icon destination.
 if [ "$DEBUG" -eq 1 ]; then
 	ICONS_DIR="$LIST_DIR/icons"
 	echo "Debug mode: downloading icons into $ICONS_DIR"
@@ -95,7 +120,6 @@ while IFS= read -r line || [ -n "$line" ]; do
 
 	(
 		tmp_file="$(mktemp "$ICONS_DIR/.${filename}.XXXXXX")"
-
 		trap 'rm -f -- "$tmp_file"' EXIT
 
 		if wget -qO "$tmp_file" "$url" 2>/dev/null; then
