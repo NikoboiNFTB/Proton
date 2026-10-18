@@ -1,0 +1,14 @@
+proton-auth.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/auth/auth-badge.svg
+proton-b2b.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/proton/proton-badge-b2b.svg
+proton-calendar.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/calendar/calendar-badge.svg
+proton-docs.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/docs/docs-badge.svg
+proton-drive.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/drive/drive-badge.svg
+proton-lumo.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/lumo/lumo-2-badge.svg
+proton-mail.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/mail/mail-badge.svg
+proton-meet.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/meet/meet-badge.svg
+proton-standardnotesnotes.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/standard-notes/standardnotes-badge.svg
+proton-pass.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/pass/pass-badge.svg
+proton-sheets.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/sheets/sheets-badge.svg
+proton-simplelogin.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/simple-login/simplelogin-badge.svg
+proton-vpn.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/vpn/vpn-badge.svg
+proton-wallet.svg=https://pmecdn.protonweb.com/image-transformation/?s=c&image=image/upload/v1776940263/static/logos/wallet/wallet-badge.svg

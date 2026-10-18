@@ -1,0 +1,125 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+usage() {
+	echo "Usage: $0 [--debug] <link-list>"
+	echo
+	echo "Options:"
+	echo "  --debug    Download icons beside the link-list file instead of hicolor."
+	echo "  -h, --help Show this help message."
+}
+
+DEBUG=0
+LIST_FILE=""
+
+for arg in "$@"; do
+	case "$arg" in
+	--debug)
+		DEBUG=1
+		;;
+	-h | --help)
+		usage
+		exit 0
+		;;
+	*)
+		if [ -n "$LIST_FILE" ]; then
+			echo "Error: Unexpected argument '$arg'." >&2
+			usage >&2
+			exit 1
+		fi
+		LIST_FILE="$arg"
+		;;
+	esac
+done
+
+if [ -z "$LIST_FILE" ]; then
+	echo "Error: A link-list path is required." >&2
+	usage >&2
+	exit 1
+fi
+
+if [ ! -f "$LIST_FILE" ] || [ ! -r "$LIST_FILE" ]; then
+	echo "Error: Link-list file does not exist or is not readable: $LIST_FILE" >&2
+	exit 1
+fi
+
+if [ -z "${HOME:-}" ]; then
+	echo "Error: HOME variable not set." >&2
+	exit 1
+fi
+
+# Resolve the list file's directory for debug downloads.
+LIST_DIR="$(cd -- "$(dirname -- "$LIST_FILE")" && pwd)"
+LIST_FILE="$LIST_DIR/$(basename -- "$LIST_FILE")"
+
+if [ "$DEBUG" -eq 1 ]; then
+	ICONS_DIR="$LIST_DIR/icons"
+	echo "Debug mode: downloading icons into $ICONS_DIR"
+else
+	ICONS_DIR="$HOME/.local/share/icons/hicolor/scalable/apps"
+	echo "Installing icons into hicolor: $ICONS_DIR"
+fi
+
+mkdir -p -- "$ICONS_DIR"
+
+if [ ! -w "$ICONS_DIR" ] || [ ! -x "$ICONS_DIR" ]; then
+	echo "Error: No write and/or execute permission to $ICONS_DIR" >&2
+	exit 1
+fi
+
+echo "Downloading Proton icons..."
+
+pids=()
+FAILED=0
+
+while IFS= read -r line || [ -n "$line" ]; do
+	# Ignore blank lines and comments.
+	[[ "$line" =~ ^[[:space:]]*$ ]] && continue
+	[[ "$line" =~ ^[[:space:]]*# ]] && continue
+
+	if [[ "$line" != *=* ]]; then
+		echo "Error: Invalid list entry: $line" >&2
+		FAILED=1
+		continue
+	fi
+
+	filename="${line%%=*}"
+	url="${line#*=}"
+
+	if [[ ! "$filename" =~ ^[a-zA-Z0-9._-]+\.svg$ ]] || [ -z "$url" ]; then
+		echo "Error: Invalid filename or URL in entry: $line" >&2
+		FAILED=1
+		continue
+	fi
+
+	(
+		tmp_file="$(mktemp "$ICONS_DIR/.${filename}.XXXXXX")"
+
+		trap 'rm -f -- "$tmp_file"' EXIT
+
+		if wget -qO "$tmp_file" "$url" 2>/dev/null; then
+			mv -f -- "$tmp_file" "$ICONS_DIR/$filename"
+			trap - EXIT
+			echo "Downloaded: $filename"
+		else
+			echo "Error: Failed to download $filename" >&2
+			exit 1
+		fi
+	) &
+
+	pids+=("$!")
+done <"$LIST_FILE"
+
+for pid in "${pids[@]}"; do
+	if ! wait "$pid"; then
+		FAILED=1
+	fi
+done
+
+if [ "$FAILED" -ne 0 ]; then
+	echo "Error: One or more icons failed to download." >&2
+	exit 1
+fi
+
+echo "All Proton icons downloaded successfully."
