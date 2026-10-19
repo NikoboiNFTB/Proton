@@ -131,7 +131,7 @@ bash install --debug links.txt
 bash install --debug old/links.txt
 ```
 
-The folders above are ignored by Git in `/.git/info/exclude`.
+The folders above are ignored by Git in `/.gitignore`.
 
 ## VPN
 
