@@ -127,11 +127,11 @@ The `--debug` flag is used to download all Proton SVG files into `icons/` folder
 # Downloads all files into `/icons/icons/`
 bash install --debug links.txt
 
-# Downloads all files into `/icons/old/icons/`
-bash install --debug old/links.txt
+# Downloads all files into `/icons/new/icons/`
+bash install --debug new/links.txt
 ```
 
-The folders above are ignored by Git in `/.gitignore`.
+The `icons` folders are ignored in `/.gitignore`.
 
 ## VPN
 
@@ -147,6 +147,8 @@ git clone https://github.com/NikoboiNFTB/Proton ~/GitHub/NikoboiNFTB/Proton-VPN
 cd ~/GitHub/NikoboiNFTB/Proton-VPN
 git checkout 4c288ac
 ```
+
+There might be a README over there explaining stuff idk.
 
 ## Contributing
 
